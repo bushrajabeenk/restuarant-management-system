@@ -1,0 +1,19 @@
+#order-form {
+  margin-top: 50px;
+}
+
+#order-form > form {
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#order-form > form > input {
+  text-align: center;
+}
+
+#order-form > form > #submit {
+  margin: auto;
+  width: 80px;
+}

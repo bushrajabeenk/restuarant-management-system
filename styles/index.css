@@ -1,0 +1,28 @@
+#navbar {
+  display: flex;
+  float: right;
+  margin-bottom: 50px;
+}
+
+#navbar > div {
+  padding-right: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu {
+  margin: auto;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+#imgid {
+  height: 200px;
+  width: 200px;
+}
